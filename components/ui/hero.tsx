@@ -65,7 +65,7 @@ export function Hero({ url, setUrl, handleGenerate, loading }: HeroProps) {
                             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
                             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
                         </span>
-                        <span className="text-xs font-semibold text-blue-600 tracking-wide uppercase">AI-Powered Generator</span>
+                        <span className="text-xs font-semibold text-blue-600 tracking-wide uppercase">Actions Made Simpler with AI</span>
                     </div>
 
                     <h1 className="hero-text-element text-5xl sm:text-7xl font-bold font-display tracking-tight text-gray-900 leading-[1.1]">

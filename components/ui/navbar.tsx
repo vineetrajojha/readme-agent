@@ -51,12 +51,12 @@ export function Navbar() {
             <div className="flex items-center justify-between max-w-7xl mx-auto w-full px-6 py-4">
                 <div className="flex items-center gap-2">
                     <Link href="/" className="text-xl font-bold font-display text-gray-900 tracking-tight">
-                        README <span className="text-blue-600">Agent</span>
+                        github <i><span className="text-blue-600">actions</span></i>
                     </Link>
                 </div>
 
                 <div className="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
-                    {["Features", "Pricing", "Blog"].map((item) => (
+                    {["readme", "actions", "pages"].map((item) => (
                         <Link
                             key={item}
                             href="#"
